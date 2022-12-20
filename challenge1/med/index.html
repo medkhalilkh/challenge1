@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDS Bootcamp form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="gdslogo.png">
+</head>
+<body>
+    <h1 style="text-align:center;">GDSC ESSTHS WEB Bootcamp</h1>
+    <img src="gds.png" alt="gds pic" width="100%" height="350px">
+    
+    <form class="form">
+        <label for="fn">First name:</label><br>
+        <input type="text" id="fn" name="fn"><br>
+        <label for="ln">Last name:</label><br>
+        <input type="text" id="ln" name="ln"><br>
+       
+        <label for="ea">Email adress:</label><br>
+        <input type="text" id="ea" name="ea"><br>
+        <label for="pn">Phone number:</label><br>
+        <input type="text" id="pn" name="pn"><br>
+         <label for="team">Choose your team:</label>
+          <select name="team" id="team">
+        <option value="team A"> Team A</option>
+        <option value="team B"> Team B</option>
+        <option value="team C"> Team C</option>
+        <option value="team D"> Team D</option>
+        <option value="team E"> Team E</option>
+        <option value="team F"> Team F</option>
+        </select>
+        
+            <h4>Rate us:</h4>
+            <input type="range" min="0" max="5" value="5" oninput="rangeValue.innerText = this.value">
+            <p id="rangeValue">5</p>
+            <button type="submit">Submit</button>
+         
+      </form>
+</body>
+</html>

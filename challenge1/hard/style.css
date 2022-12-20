@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+
+}
+.form{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#fn{
+    border: 2px solid green;    
+    
+ 
+   
+   
+}
+#ln{
+    border: 2px solid rgb(255, 251, 0);
+
+}
+
+
+#ea{
+    border: 2px solid rgb(0, 0, 255);
+  
+}
+#pn{
+    border: 2px solid red;
+   
+}
+
+input{
+    margin: 10px 10px;
+}
+button{
+    border: none;
+    border-radius:20px ;
+    background-color: rgb(255, 238, 0);
+    padding: 20px;
+    cursor:pointer;
+}
+button:hover{
+    
+    background-color: rgb(255, 255, 255);
+
+}
